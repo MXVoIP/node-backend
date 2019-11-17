@@ -1,0 +1,29 @@
+{
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "Backend services using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/MXVoIP/node-backend.git",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MXVoIP/node-backend/issues"
+  },
+  "homepage": "https://github.com/MXVoIP/node-backend#readme",
+  "private": true,
+  "workspaces": [
+    "lib/*",
+    "service/*",
+    "util/*"
+  ],
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "gulp": "^4.0.2",
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+}
