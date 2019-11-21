@@ -15,11 +15,13 @@
   },
   "homepage": "https://github.com/MXVoIP/node-backend#readme",
   "private": true,
-  "workspaces": [
-    "lib/*",
-    "service/*",
-    "util/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "lib/*",
+      "service/*",
+      "util/*"
+    ]
+  },
   "devDependencies": {
     "eslint": "^6.6.0",
     "gulp": "^4.0.2",

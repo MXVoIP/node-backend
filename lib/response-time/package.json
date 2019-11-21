@@ -1,5 +1,5 @@
 {
-  "name": "@local-lib/logging",
+  "name": "@local-lib/response-time",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,6 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "winston": "^3.2.1"
-  },
-  "peerDependencies": {
-    "@local-lib/response-time": "^1.0.0"
+    "on-headers": "^1.0.2"
   }
 }
