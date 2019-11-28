@@ -1,5 +1,5 @@
 {
-  "name": "@local-lib/redis-durable-queue",
+  "name": "@local-lib/validation",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,7 @@
   "description": "",
   "private": true,
   "dependencies": {
-    "ajv": "^6.10.2",
     "jsonschema": "^1.2.4",
-    "redis": "^2.8.0"
+    "validator": "^12.1.0"
   }
 }
